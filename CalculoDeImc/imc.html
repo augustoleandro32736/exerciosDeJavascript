@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo de Imc</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="Imc">
+            <h1>Calculo de Imc</h1>
+            <input type="number" class="altura" placeholder="Altura">
+            <input type="number" class="peso "placeholder="Peso">
+            <button onclick="calcular()">Calcular</button>
+        </div>
+        <div>
+            <h1> Seu imc é :<span id="resultado"></span></h1>
+            <p id="valorImc"></p>
+        </div>
+    </div>
+    <div>
+        <table style="text-align: center; margin-top: 70px;">
+            <tr>
+                <td>
+                    <p>VEJA A INTERPRETAÇÃO DO IMC</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid; ">
+                    <p>IMC</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>CLASSIFICAÇÃO</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>OBESIDADE (GRAU)</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid; ">
+                    <p>MENOR QUE 18,5</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>MAGREZA</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>0</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid; ">
+                    <p>ENTRE 18,5 E 24,9</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>NORMAL</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>0</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid; ">
+                    <p>ENTRE 25,0 E 29,9</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>SOBREPESO</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>I</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid; ">
+                    <p>ENTRE 30,0 E 39,9</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>OBESIDADE</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>II</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid; ">
+                    <p>MAIOR QUE 40,0</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>OBESIDADE GRAVE</p>
+                </td>
+                <td style="border: 2px solid; ">
+                    <p>III</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

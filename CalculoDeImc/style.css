@@ -1,0 +1,20 @@
+.imc{
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-right:  2px solid black;
+}
+.imc h1{
+   font-size: 20px;
+   color: yellow;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+.wrapper{
+    align-items: center;
+}
